@@ -87055,6 +87055,10 @@ video {
   text-transform: uppercase;
 }
 
+.fa {
+  font-size: 20px;
+}
+
 @media (min-width: 1024px) {
   .hero-header img {
     width: 75%;
