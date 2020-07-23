@@ -17,8 +17,22 @@
   @apply bg-teal-400 mt-3 text-white px-4 py-2 uppercase;
 }
 
+.pic-profile {
+  @apply flex flex-wrap mx-auto px-3 justify-center;
+}
+
+.border-about {
+  @apply flex justify-center flex-wrap border-none border-4 shadow-lg py-16 text-center;
+}
+
 @screen lg {
   .hero-header img {
     width: 75%;
+  }
+}
+
+@screen md {
+  .border-about {
+    @apply flex justify-center flex-wrap border-none border-4 shadow-lg px-64 py-16 text-center;
   }
 }

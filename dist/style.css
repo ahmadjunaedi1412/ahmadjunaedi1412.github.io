@@ -87055,12 +87055,46 @@ video {
   text-transform: uppercase;
 }
 
-.fa {
-  font-size: 20px;
+.pic-profile {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  justify-content: center;
+}
+
+.border-about {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-style: none;
+  border-width: 4px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
 }
 
 @media (min-width: 1024px) {
   .hero-header img {
     width: 75%;
+  }
+}
+
+@media (min-width: 768px) {
+  .border-about {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-style: none;
+    border-width: 4px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    padding-left: 16rem;
+    padding-right: 16rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
   }
 }
