@@ -1,6 +1,11 @@
 new fullpage('#fullpage', {
     autoScrolling: true,
-    navigation: true,
+    navigation: false,
+    scrollHorizontally: false,
+    anchors: ['slide0'],
+    resetSliders: true,
+    responsiveSlides: true,
+    controlArrows: false,
     onLeave: async (origin, destination, direction) => {
         const section = destination.item;
         const title = section.querySelector('h1');

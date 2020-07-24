@@ -87033,26 +87033,25 @@ video {
   }
 }
 
-.hero-header {
+body {
+  background-color: #2d3748;
+  color: #e2e8f0;
 }
 
-.hero-header img {
-  width: 105%;
+.img-hero img {
+  width: 50%;
 }
 
-.btn-teal {
-  --bg-opacity: 1;
-  background-color: #4fd1c5;
-  background-color: rgba(79, 209, 197, var(--bg-opacity));
-  margin-top: 0.75rem;
-  --text-opacity: 1;
-  color: #fff;
-  color: rgba(255, 255, 255, var(--text-opacity));
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  text-transform: uppercase;
+.hero-header h1 {
+  font-size: 75px;
+}
+
+.pendidikan img {
+  width: 55%;
+}
+
+.fp-slidesNav.bottom {
+  bottom: 25px;
 }
 
 .pic-profile {
@@ -87071,7 +87070,7 @@ video {
   flex-wrap: wrap;
   border-style: none;
   border-width: 4px;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
   padding-top: 4rem;
   padding-bottom: 4rem;
   text-align: center;
@@ -87096,5 +87095,9 @@ video {
     padding-top: 4rem;
     padding-bottom: 4rem;
     text-align: center;
+  }
+
+  .hero-header h1 {
+    font-size: 110px;
   }
 }

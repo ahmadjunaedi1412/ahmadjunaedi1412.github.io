@@ -6,15 +6,25 @@
 
 @tailwind screens;
 
-.hero-header {
+body {
+  background-color: #2d3748;
+  color: #e2e8f0;
 }
 
-.hero-header img {
-  width: 105%;
+.img-hero img {
+  width: 50%;
 }
 
-.btn-teal {
-  @apply bg-teal-400 mt-3 text-white px-4 py-2 uppercase;
+.hero-header h1 {
+  font-size: 75px;
+}
+
+.pendidikan img {
+  width: 55%;
+}
+
+.fp-slidesNav.bottom {
+  bottom: 25px;
 }
 
 .pic-profile {
@@ -22,7 +32,7 @@
 }
 
 .border-about {
-  @apply flex justify-center flex-wrap border-none border-4 shadow-lg py-16 text-center;
+  @apply flex justify-center flex-wrap border-none border-4 shadow-2xl py-16 text-center;
 }
 
 @screen lg {
@@ -34,5 +44,8 @@
 @screen md {
   .border-about {
     @apply flex justify-center flex-wrap border-none border-4 shadow-lg px-64 py-16 text-center;
+  }
+  .hero-header h1 {
+    font-size: 110px;
   }
 }
