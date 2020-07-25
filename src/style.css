@@ -23,6 +23,10 @@ body {
   width: 55%;
 }
 
+.img-pass img {
+  width: 45%;
+}
+
 .fp-slidesNav.bottom {
   bottom: 25px;
 }

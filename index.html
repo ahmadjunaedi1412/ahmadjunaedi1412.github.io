@@ -23,13 +23,13 @@
                     <h1 class="judul uppercase">Hello World!</h1>
                     <p class="text-2xl font-light">"Whatever will be, will be."</p>
                     <div class="flex flex-col md:flex-row">
-                        <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-8 mt-5 border
-                            border-gray-400 rounded shadow">Explore</button>
+                        <a href="#start" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-8 mt-5 border
+                            border-gray-400 rounded shadow">Explore</a>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section about-me">
+        <section class="section about-me" id="start">
             <div class="slide pic-profile" id="slide0" data-anchor="slide0">
                 <div class="border-about">
                     <img src="./src/img/jun.jpg" class="rounded-full h-32 mb-3 md:h-64">
@@ -67,8 +67,39 @@
                 </div>
             </div>
         </section>
+
+        <section class="section passion mt-8 flex flex-grow">
+            <div class="list-passion ml-4">
+                <div class="slide card-passion max-w-md md:mr-8">
+                    <div class="shadow-2xl mr-4 px-8 py-6">
+                        <h1 class="text-5xl font-thin mb-5">My Passion</h1>
+                        <img src="./src/img/web.svg" class="mb-4">
+                        <p>Berikut adalah beberapa passion yang mungkin saya miliki hehe.</p>
+                        <span class="md:hidden float-right mb-1">>></span>
+                    </div>
+                </div>
+                <div class="slide card-passion max-w-md">
+                    <div class="shadow-2xl mr-4 px-8 py-6">
+                        <h1 class="text-4xl font-thin mb-5">Web Development</h1>
+                        <img src="./src/img/web-dev.svg" class="mb-4">
+                        <p>Saya gemar belajar seputar Web Development, baik front-end maupun backend, anda bisa
+                            kunjungi github saya untuk mengetahui project apa saja yang telah saya buat</p>
+                    </div>
+                </div>
+                <div class="slide card-passion max-w-md mb-12">
+                    <div class="shadow-2xl px-8 py-6">
+                        <h1 class="text-4xl font-thin mb-5">Content Writer</h1>
+                        <img src="./src/img/article.svg" class="mb-4" width="50%">
+                        <p>Saya sangat suka menulis tutorial di blog saya, ketika saya telah paham akan sesuatu
+                            pembelajaran, saya biasa menulis ulang pemahaman saya ke blog dalam bentuk tutorial.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         <section class="section skills">
-            <h1 class="text-center text-4xl mb-5">Skills</h1>
+            <h1 class="text-center text-6xl mb-5">Skills</h1>
             <div class="list-skills flex flex-wrap justify-center content-center">
                 <div class="card bg-blue-900 max-w-sm ml-3 p-8 -px-4 rounded-full overflow-hidden shadow-lg mb-5">
                     <img src="./src/img/skill/php.png" class="h-20">
@@ -104,9 +135,9 @@
                 </ul>
             </div>
         </section>
-        <section class="section portofolio">
+        <!-- <section class="section portofolio">
 
-        </section>
+        </section> -->
         <footer>
 
         </footer>
